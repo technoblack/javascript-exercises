@@ -11,8 +11,6 @@ times --;
 return repeatedString;
 
 
-
-
 };
 
 // Do not edit below this line
