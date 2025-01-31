@@ -10,6 +10,10 @@ times --;
 
 return repeatedString;
 
+if (times < 0) {
+ return "ERROR"
+}
+
 
 };
 
