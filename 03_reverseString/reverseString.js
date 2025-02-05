@@ -6,7 +6,10 @@ let string= "Hello";
 
 let breakUp = [...string]; 
 
-console.log(breakUp);
+let backTogether = breakUp.reverse().toString();
+
+
+console.log(backTogether);
 
 
 // Do not edit below this line
