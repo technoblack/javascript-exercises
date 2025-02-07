@@ -1,14 +1,20 @@
-const reverseString = function() {
+const reverseString = function(string) {
 
-    let string= "Hello";
+    //let string= "";
 
-    let breakUp = [...string]; 
+   // let breakUp = [...string]; 
    
-    let backTogether = breakUp.reverse().toString(); 
+   // let backTogether = breakUp.reverse().toString(); 
    
-    let finalString = backTogether.replace(/,/g,"");
+   // let finalString = backTogether.replace(/,/g,"");
 
-    return(finalString);
+   let breakUp = string.split(""); 
+
+   let backTogether = breakUp.reverse(); 
+ 
+  let finalString = backTogether.join("");
+   
+  return(finalString);
 
 
 };
@@ -16,13 +22,13 @@ const reverseString = function() {
 
 
 
- let string= "Hello";
+ let string= "hello";
 
- let breakUp = [...string]; 
+ let breakUp = string.split(""); 
 
- let backTogether = breakUp.reverse().toString(); 
+  let backTogether = breakUp.reverse(); 
 
- let finalString = backTogether.replace(/,/g,"");
+ let finalString = backTogether.join("");
 
 
 
