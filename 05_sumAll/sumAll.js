@@ -1,17 +1,17 @@
 const sumAll = function(val1, val2) {
-let finalSum = 0;
 
-for (let 1 = 0, i < val2, i++) {
- 
-finalSum += val1, val2;
+for (i = 0; i < val2; i++) {
+val1++
+};
 
-return finalSum;
-
-}
+return sumAll;
 
 };
 
-console.log(finalSum)
+
+ console.log(sumAll(3,6))
+
+
 
 // Do not edit below this line
 module.exports = sumAll;
