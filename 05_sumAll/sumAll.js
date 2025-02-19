@@ -1,15 +1,17 @@
 const sumAll = function(val1, val2) {
 
-for (i = 0; i < val2; i++) {
-val1++
+let finalSum = 0  
+
+for (let i = val1; i <= val2; i++) {
+finalSum +=i
 };
 
-return sumAll;
+return finalSum
 
 };
 
 
- console.log(sumAll(3,6))
+ console.log(sumAll(1,4))
 
 
 
