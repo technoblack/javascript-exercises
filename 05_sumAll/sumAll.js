@@ -6,12 +6,21 @@ for (let i = val1; i <= val2; i++) {
 finalSum +=i
 };
 
-return finalSum
+return finalSum;
+
+// else if {
+
+for (let j = val2; i <= val1; j++)
+finalSum +=j    
+
+return finalSum;
+// }
 
 };
 
 
- console.log(sumAll(1,4))
+
+  console.log(sumAll(1,9))
 
 
 
