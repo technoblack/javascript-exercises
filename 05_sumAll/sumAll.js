@@ -42,6 +42,8 @@ const sumAll = function (min, max) {
   return sum;
 };
 
+console.log(sumAll(9,7))
+
 
 // Do not edit below this line
 module.exports = sumAll;
